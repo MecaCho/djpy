@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+    {% block content %}
+        {% for blog in blog_list %}
+            <ul>
+            <li>
+               {{ blog.id }}
+            <a href="/detail.html">{{ blog.title }}</a>
+            ||{{ blog.body }}
+            ||{{ blog.timestamp }}
+            </li>
+                </ul>
+        {% endfor%}
+        <a href="http://www.baidu.com">baidu.com</a>
+    {% endblock %}
+
+
