@@ -8,7 +8,7 @@ xlwt==1.0.0
 whoosh==2.7.4
 jieba==0.38
 git+https://github.com/sshwsfc/django-xadmin.git@django1.9
-Django==1.9.5
+Django==1.11.28
 dj-database-url==0.4.1
 django-pagination-py3==1.1.1
 django-redis==4.4.2
